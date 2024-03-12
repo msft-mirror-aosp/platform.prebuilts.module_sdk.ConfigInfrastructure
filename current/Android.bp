@@ -50,7 +50,10 @@ java_sdk_library_import {
     apex_available: ["com.android.configinfrastructure"],
     licenses: ["configinfrastructure-sdk_Android-Apache-2.0"],
     shared_library: false,
-    permitted_packages: ["android.provider"],
+    permitted_packages: [
+        "android.provider",
+        "android.provider.aidl",
+    ],
     public: {
         jars: ["sdk_library/public/framework-configinfrastructure-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-configinfrastructure.srcjar"],
