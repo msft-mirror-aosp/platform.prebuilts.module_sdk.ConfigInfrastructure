@@ -1,0 +1,4 @@
+Landroid/provider/configinfrastructure/framework/CustomFeatureFlags;->enableApiAsPublic()Z,unsupported
+Landroid/provider/configinfrastructure/framework/FeatureFlags;->enableApiAsPublic()Z,unsupported
+Landroid/provider/configinfrastructure/framework/FeatureFlagsImpl;->enableApiAsPublic()Z,unsupported
+Landroid/provider/configinfrastructure/framework/Flags;->enableApiAsPublic()Z,unsupported
