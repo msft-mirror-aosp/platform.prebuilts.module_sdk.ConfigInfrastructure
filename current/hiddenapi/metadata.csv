@@ -1,1 +1,5 @@
-
+signature
+|Landroid/provider/configinfrastructure/framework/CustomFeatureFlags;->enableApiAsPublic()Z|
+|Landroid/provider/configinfrastructure/framework/FeatureFlags;->enableApiAsPublic()Z|
+|Landroid/provider/configinfrastructure/framework/FeatureFlagsImpl;->enableApiAsPublic()Z|
+|Landroid/provider/configinfrastructure/framework/Flags;->enableApiAsPublic()Z|

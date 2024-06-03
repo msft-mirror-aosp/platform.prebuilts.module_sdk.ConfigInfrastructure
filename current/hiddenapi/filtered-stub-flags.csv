@@ -116,3 +116,12 @@ Landroid/provider/DeviceConfig;->setProperties(Landroid/provider/DeviceConfig$Pr
 Landroid/provider/DeviceConfig;->setProperty(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Z,system-api,test-api
 Landroid/provider/DeviceConfig;->setSyncDisabledMode(I)V,system-api,test-api
 Landroid/provider/UpdatableDeviceConfigServiceReadiness;->shouldStartUpdatableService()Z,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Default;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub$$ExternalSyntheticLambda1;->accept(I)V,core-platform-api,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub$Proxy$$ExternalSyntheticLambda0;->accept(Ljava/lang/Object;Ljava/lang/Object;)V,core-platform-api,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub$Proxy$$ExternalSyntheticLambda1;->accept(I)V,core-platform-api,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
+Landroid/provider/aidl/IDeviceConfigManager$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/provider/configinfrastructure/framework/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
