@@ -1,3 +1,0 @@
-Landroid/os/flagging/AconfigPackageInternal;->getBooleanFlagValue(I)Z,unsupported
-Landroid/os/flagging/AconfigPackageInternal;->load(Ljava/lang/String;J)Landroid/os/flagging/AconfigPackageInternal;,unsupported
-Landroid/os/flagging/AconfigStorageReadException;->ERROR_FILE_FINGERPRINT_MISMATCH:I,unsupported
