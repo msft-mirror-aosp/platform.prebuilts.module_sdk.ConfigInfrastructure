@@ -1,4 +1,22 @@
 // Signature format: 2.0
+package android.os.flagging {
+
+  public class AconfigStorageWriteException extends android.util.AndroidRuntimeException {
+    ctor public AconfigStorageWriteException(@NonNull String);
+    ctor public AconfigStorageWriteException(@NonNull String, @NonNull Throwable);
+  }
+
+  public final class FlagManager {
+    method public void clearBooleanLocalOverridesImmediately(@Nullable java.util.Set<java.lang.String>);
+    method public void clearBooleanLocalOverridesOnReboot(@Nullable java.util.Set<java.lang.String>);
+    method public void setBooleanLocalOverridesImmediately(@NonNull java.util.Map<java.lang.String,java.lang.Boolean>);
+    method public void setBooleanLocalOverridesOnReboot(@NonNull java.util.Map<java.lang.String,java.lang.Boolean>);
+    method public void setBooleanOverridesOnReboot(@NonNull java.util.Map<java.lang.String,java.lang.Boolean>);
+    method public void setBooleanOverridesOnSystemBuildFingerprint(@NonNull String, @NonNull java.util.Map<java.lang.String,java.lang.Boolean>);
+  }
+
+}
+
 package android.provider {
 
   public final class DeviceConfig {
@@ -8,6 +26,7 @@ package android.provider {
     method @RequiresPermission(android.Manifest.permission.MONITOR_DEVICE_CONFIG_ACCESS) public static void clearMonitorCallback(@NonNull android.content.ContentResolver);
     method @RequiresPermission(anyOf={android.Manifest.permission.WRITE_DEVICE_CONFIG, android.Manifest.permission.WRITE_ALLOWLISTED_DEVICE_CONFIG}) public static boolean deleteProperty(@NonNull String, @NonNull String);
     method @NonNull public static java.util.Set<java.lang.String> getAdbWritableFlags();
+    method @NonNull public static java.util.Set<java.lang.String> getAdbWritableNamespaces();
     method @NonNull public static java.util.Set<android.provider.DeviceConfig.Properties> getAllProperties();
     method public static boolean getBoolean(@NonNull String, @NonNull String, boolean);
     method @RequiresPermission(android.Manifest.permission.READ_DEVICE_CONFIG) public static float getFloat(@NonNull String, @NonNull String, float);

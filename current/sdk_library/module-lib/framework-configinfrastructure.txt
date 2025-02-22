@@ -1,4 +1,12 @@
 // Signature format: 2.0
+package android.os.flagging {
+
+  public final class ConfigInfrastructureFrameworkInitializer {
+    method public static void registerServiceWrappers();
+  }
+
+}
+
 package android.provider {
 
   public final class DeviceConfig {
